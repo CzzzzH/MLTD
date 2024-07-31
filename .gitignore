@@ -1,0 +1,13 @@
+__pycache__
+.vscode
+scenes/OpenRooms/*
+
+*.png
+*.exr
+*.npy
+*.npz
+*.pth.tar
+*.log
+*.zip
+*.mp4
+*.pdf

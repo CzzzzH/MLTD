@@ -1,0 +1,28 @@
+model_name: "MLTD"
+rendering_type: "mlt"
+train_dir: "dataset/train_indoors"
+valid_dir: "dataset/valid_indoors"
+test_dir: "dataset/test_indoors_test_32spp" 
+visualization_dir: "visualization"
+checkpoints_dir: "checkpoints"
+statistics_dir: "statistics"
+checkpoint_name: "MLTD_pretrained" # For Test
+width: 128
+height: 128
+batch_size: 2
+step_size: 20
+kernel_size: 9
+kernel_size_temporal: 5
+learning_rate: 0.0001
+clip_grad: 1000
+total_epoch: 50
+save_interval: 1
+print_interval: 100
+num_workers: 8
+num_workers_valid: 4
+task_id: 1
+visualization: true
+split: false
+use_patch: false
+use_checkpoint: false # For Train
+test_input: false
